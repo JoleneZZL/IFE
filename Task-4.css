@@ -1,26 +1,31 @@
-
+body{
+  height:100%;
+  padding:0;
+  margin:0;
+}
 .box{
 background-color:#ccc;
 height:200px;
 width:400px;
-position:absolute;
-top:50%;
-left:50%;
+position:relative;
+margin:0 auto;
 overflow:hidden;
+transform:translateY(-50%);
 }
 .circle1,.circle2{
 background-color:#fc0;
-width:50px;
-height:50px;
-position:absolute;
+width:100px;
+height:100px;
 }
 .circle1{
 border-bottom-right-radius:50px;
 top:-50px;
 left:-50px;
+position:relative;
 }
 .circle2{
 border-top-left-radius:50px;
 top:150px;
 right:-50px;
+position:absolute;
 }

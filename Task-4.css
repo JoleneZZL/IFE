@@ -8,9 +8,9 @@ background-color:#ccc;
 height:200px;
 width:400px;
 position:relative;
-margin:0 auto;
+top:50%;
+left:50%;  
 overflow:hidden;
-transform:translateY(-50%);
 }
 .circle1,.circle2{
 background-color:#fc0;
@@ -21,7 +21,7 @@ height:100px;
 border-bottom-right-radius:50px;
 top:-50px;
 left:-50px;
-position:relative;
+position:absolute;
 }
 .circle2{
 border-top-left-radius:50px;

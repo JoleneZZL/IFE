@@ -48,12 +48,14 @@ body{
 .container{
  background-color:#ccc
  padding:10px;
+ overflow:hidden;
 }
-.sidebar,.Part_1,.Part_2,.Part_3,.Part_4{
+.Part_1,.Part_2,.Part_3,.Part_4{
   background-color:#fff;
   padding:10px;
-  margin:20px;
+  margin:20px auto;
   box-shadow:10px 5px 5px #333；
+  float:left;
 }
 .Part_1{
   margin-top:0;
@@ -89,12 +91,15 @@ body{
   margin:auto;
 }
 .sidebar{
-  float:left;
+  float:right;
   width:300px;
   overflow:hidden;
   line-height:3em;
+  background-color:#fff;
+  padding:10px;
+  margin:20px;
 }
-.congirm-btn{
+.confirm-btn{
   display:block;
   background-color:blue;
   width:350px;

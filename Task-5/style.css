@@ -49,7 +49,6 @@ body{
 .container{
  background-color:#ccc
  padding:10px;
- overflow:hidden;
 }
 #leftside{
     position:relative;

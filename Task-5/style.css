@@ -16,9 +16,16 @@ body{
 }
 .narv_links {
   color:yellow;
-  font-family:Verdana;
-  text-decoration:none;
-  size:0.5em;
   float:right;
+}
+.narv_links a{
+  text-decoration:none;
+}
+.narv_links li{
+  color:#fff;
+  font-family:Verdana;
   display:inline;
+}
+.footer{
+ text-align:center;
 }

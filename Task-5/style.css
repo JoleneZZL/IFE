@@ -88,4 +88,7 @@ body{
   width:80%;
   height:auto;
 }
-  
+.clearfix{
+ overflow:auto;
+ zoom:1;
+}

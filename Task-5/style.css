@@ -49,13 +49,13 @@ body{
  background-color:#ccc
  padding:10px;
 }
-#sidebar,#Part_1,#Part_2,#Part_3,#Part_4{
+.sidebar,.Part_1,.Part_2,.Part_3,.Part_4{
   background-color:#fff;
   padding:10px;
   margin:20px;
   box-shadow:10px 5px 5px #333；
 }
-#Part_1{
+.Part_1{
   margin-top:0;
 }
 .container h2,.container h3 {
@@ -68,25 +68,25 @@ body{
   line-height:1em;
 }
 
-#Part_3{
+.Part_3{
   overflow:hidden;
 }
-#Part_3 pic{
+.Part_3 pic{
   position:relative;
   float:left;
   }
-#Part_3 pic li{
+.Part_3 pic li{
   float:left;
   border:1px solid #000;
   overflow:hidden;
   margin:10px;
   padding:10px;
 }
-#Part_3 pic li img{
+.Part_3 pic li img{
   width:200px;
   height:auto;
   }
-#Part_3 pic li div{
+.Part_3 pic li div{
   text-align:center;
 }
   

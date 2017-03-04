@@ -58,17 +58,19 @@ body{
 #Part_1{
   margin-top:0;
 }
-.container > h2 && h3 {
+.container h2,.container h3 {
   color:purple;
-  line-height:20px;
+  line-height:3em;
 }
 .container p {
   font-family:Courier New;
   size:5em;
   line-height:2.5em;
 }
-img{
+.img{
   border:5px inset #000;
-  width:80%
+  width:80%;
+  text-align:center;
+  color:purple;
 }
   

@@ -6,24 +6,34 @@ body{
   background-color:#000;
 }
 .header,.footer{
-  width:100%;
-  background-color:brown;
-  margin:0 20px;
-  padding:10px;
+  height:60px;
+  background-color:#333;
+  overflow:hidden;
+  display:block;
+}
+.narv{
+  margin:10px;
+  overflow:hidden;
+  display:block;
 }
 .header h1, .footer{
   color:#fff;
   font-family:Century Gothic;
 }
-.narv_links {
-  position:absolute;
-  top：10px;
-  right:10px;
+.header h1{
+  float:left;
+  height:40px;
 }
-.narv_links li{
+.narv ul {
+  float:right;
+  line-height:40px;
+}
+.narv li{
+  margin-left:10px;
   color:#fff;
   font-family:Verdana;
-  display:inline;
+  display:inline-block;
+  list-style:none;
 }
 .footer{
  text-align:center;

@@ -48,10 +48,9 @@ body{
 .container{
  background-color:#ccc
  overflow:hidden;
- padding:10px;
 }
 #sidebar,#Part_1,#Part_2,#Part_3,#Part_4{
-  background-color:#ccc;
+  background-color:#fff;
   padding:10px;
   margin:20px;
   box-shadow:10px 5px 5px #333；

@@ -55,6 +55,7 @@ body{
   padding:10px;
   margin:20px auto;
   box-shadow:10px 5px 5px #333；
+  overflow:hidden;
 }
 .Part_1{
   margin-top:0;

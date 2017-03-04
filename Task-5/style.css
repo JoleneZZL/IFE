@@ -47,7 +47,6 @@ body{
 }
 .container{
  background-color:#ccc
- overflow:hidden;
  padding:10px;
 }
 #sidebar,#Part_1,#Part_2,#Part_3,#Part_4{
@@ -59,7 +58,7 @@ body{
 #Part_1{
   margin-top:0;
 }
-.container > h2,h3 {
+.container > h2 && h3 {
   color:purple;
   line-height:20px;
 }
@@ -68,7 +67,7 @@ body{
   size:5em;
   line-height:2.5em;
 }
-.container > img{
+img{
   border:5px inset #000;
   width:80%
 }

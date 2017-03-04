@@ -52,7 +52,6 @@ body{
 }
 #leftside{
     position:relative;
-    margin:20px 360px 20px 20px;
     height:100%;
 }
 .Part_1,.Part_2,.Part_3,.Part_4{
@@ -60,6 +59,7 @@ body{
   padding:10px;
   box-shadow:10px 5px 5px #333；
   margin:20px;
+  margin:20px 360px 20px 20px;
 }
 .Part_1{
   margin-top:0;

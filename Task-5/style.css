@@ -4,6 +4,7 @@
 }
 body{
   background-color:#000;
+  height: 100%;
 }
 .header,.footer{
   height:60px;
@@ -49,9 +50,6 @@ body{
  background-color:#ccc
  padding:10px;
  overflow:hidden;
-}
-#leftside{
-  overflow:hidden;
 }
 .Part_1,.Part_2,.Part_3,.Part_4{
   background-color:#fff;

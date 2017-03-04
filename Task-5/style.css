@@ -94,6 +94,7 @@ body{
   margin:auto;
 }
 .sidebar{
+  position:relative;
   float:right;
   width:300px;
   overflow:hidden;

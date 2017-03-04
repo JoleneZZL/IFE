@@ -37,15 +37,24 @@ body{
   display:inline-block;
   list-style:none;
 }
+.narv li a{
+  text-decoration:none;
+  color:#fff;
+}
 .footer{
  text-align:center;
  size:2em;
+}
+.container{
+ background-color:#ccc
+ overflow:hidden;
+ padding:10px;
 }
 #sidebar,#Part_1,#Part_2,#Part_3,#Part_4{
   background-color:#ccc;
   padding:10px;
   margin:20px;
-  box-shadow:10px 10px 5px #ccc;
+  box-shadow:10px 5px 5px #333；
 }
 #Part_1{
   margin-top:0;

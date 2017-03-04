@@ -71,16 +71,24 @@ body{
 .Part_3{
   overflow:hidden;
 }
-.pic{
-  position:relative;
-  float:left;
-  padding:10px;
-  background-color:yellow;
+.pic-wrap{
+  width:95%;
+  margin:20px auto;
 }
-.pic li{
-  border:1px solid #fff;
+.pic-wrap p{
+  margin:20px;
+  border:1px solid yellow;
+  width:320px;
+  height:120px;
+  text-align:center;
+  display:inline-block;
 }
-
+.pic-wrap p img{
+  width:80%;
+  height:60%;
+  margin:auto;
+}
+  
   
   
   

@@ -80,19 +80,7 @@ body{
 .pic li{
   border:1px solid #fff;
 }
-.pic li img{
-  width:50%;
-  height:auto;
-  position:absolute;
-  top:50%;
-  left:50%;
-  transform:translate(-50%,-50%);
-}
-.pic li div{
-  text-align:center;
-  color:#fff
-  line-height:1em;
-}
+
   
   
   

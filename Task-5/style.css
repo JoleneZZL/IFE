@@ -88,6 +88,19 @@ body{
   height:60%;
   margin:auto;
 }
+.sidebar{
+  float:left;
+  width:300px;
+  overflow:hidden;
+  line-height:3em;
+}
+.congirm-btn{
+  display:block;
+  background-color:blue;
+  width:350px;
+  color:white;
+}
+  
   
   
   

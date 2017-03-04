@@ -67,6 +67,14 @@ body{
   size:5em;
   line-height:1em;
 }
+#clearfix:after{
+  content:"";
+  height:0;
+  visibility:hidden;
+  display:block;
+  clear:both;
+}
+}
 .images{
   border:1px solid #000;
   width:30%;
@@ -75,5 +83,9 @@ body{
   padding:10px;
   text-align:center;
   float:left;
+}
+.images img{
+  width:80%;
+  height:auto;
 }
   

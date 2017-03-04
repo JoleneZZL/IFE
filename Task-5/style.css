@@ -16,7 +16,9 @@ body{
 }
 .narv_links {
   color:yellow;
-  float:right;
+  position:absolute;
+  top：10px;
+  right:5px;
 }
 .narv_links a{
   text-decoration:none;
@@ -28,4 +30,11 @@ body{
 }
 .footer{
  text-align:center;
+ size:2em;
+}
+.sidebar,#Part_1,#Part_2,#Part_3{
+  background-color:#ccc;
+  padding:20px;
+  margin:20px;
+  box-shadow:10px 10px 5px #ccc;
 }

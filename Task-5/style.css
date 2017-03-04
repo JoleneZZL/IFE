@@ -52,6 +52,7 @@ body{
  overflow:hidden;
 }
 #leftside{
+    position:relative;
     margin:20px 360px 20px 20px;
     height:100%;
 }

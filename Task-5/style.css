@@ -50,12 +50,14 @@ body{
  padding:10px;
  overflow:hidden;
 }
+#leftside{
+  overflow:hidden;
+}
 .Part_1,.Part_2,.Part_3,.Part_4{
   background-color:#fff;
   padding:10px;
   margin:20px auto;
   box-shadow:10px 5px 5px #333；
-  overflow:hidden;
 }
 .Part_1{
   margin-top:0;

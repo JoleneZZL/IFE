@@ -65,12 +65,15 @@ body{
 .container p {
   font-family:Courier New;
   size:5em;
-  line-height:2.5em;
+  line-height:1em;
 }
-.img{
-  border:5px inset #000;
-  width:80%;
-  text-align:center;
+.images{
+  border:1px solid #000;
+  width:30%;
+  height:30%;
   color:purple;
+  padding:10px;
+  text-align:center;
+  float:left;
 }
   

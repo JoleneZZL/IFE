@@ -1,27 +1,27 @@
-body{
-  margin:0 30px;
+*{
+  margin:0;
   padding:0;
+}
+body{
   background-color:#000;
 }
 .header,.footer{
   position:relative;
   width:100%;
   background-color:#ccc;
-  padding:5px;
   display:block;
+  margin:0 20px;
+  padding:10px;
+  overflow:hidden;
 }
 .header h1, .footer{
   color:#fff;
   font-family:Century Gothic;
 }
 .narv_links {
-  color:yellow;
   position:absolute;
   top：10px;
-  right:5px;
-}
-.narv_links a{
-  text-decoration:none;
+  right:10px;
 }
 .narv_links li{
   color:#fff;
@@ -32,9 +32,12 @@ body{
  text-align:center;
  size:2em;
 }
-.sidebar,#Part_1,#Part_2,#Part_3{
+#sidebar,#Part_1,#Part_2,#Part_3,#Part_4{
   background-color:#ccc;
-  padding:20px;
+  padding:10px;
   margin:20px;
   box-shadow:10px 10px 5px #ccc;
+}
+#Part_1{
+  margin-top:0;
 }

@@ -63,7 +63,8 @@ top:0;
 }
 .colorleft{
 left:0;
-background:#72A664;}
+background:#72A664;
+}
 .colorright{
 right:0;
 background: #E1ABC3;
@@ -73,6 +74,7 @@ width:203px;
 height:301px;
 top:0;
 right:0;
+position:absolute;
 }
 .fonts1 hr{
 border:2px solid #cc8091;
@@ -100,7 +102,7 @@ color:#75b86b;
 font-style:italic;
 position:absolute;
 left:0;
- top:135px;
+top:135px;
 }
 .below1{
 position:relative;

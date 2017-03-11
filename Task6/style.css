@@ -72,9 +72,6 @@ background: #E1ABC3;
 .fonts1{
 width:203px;
 height:301px;
-position:absolute;
-top:0;
-margin-left:50px;
 }
 .fonts1 hr{
 border:2px solid #cc8091;
@@ -105,25 +102,25 @@ left:0;
 }
 .below1{
 position:relative;
+display:inline-block;
 }
 .num2{
 font-size:55px;
 color:#cc8091;
 position:absolute;
-bottom:0;
 left:0;
+
 }
 .css{
 font-size:21px;
 color:#cc8091;
 position:absolute;
-bottom:13px;
-right:87px;
+top:150px;
 }
 .css2{
 font-size:12px;
 color:#cc8091;
 position:absolute;
-bottom:0px;
+top:170px;
 right:87px;
 }

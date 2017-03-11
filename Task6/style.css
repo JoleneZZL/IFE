@@ -43,7 +43,6 @@ right:0;
 bottom:4px;
 }
 .lineone{
-width:892px;
 height:2px;
 color:#938e8c;
 margin-top:0;
@@ -74,8 +73,7 @@ background: #E1ABC3;
 width:203px;
 height:301px;
 position:absolute;
-top:0;
-right:0;
+float:right;
 }
 .fonts1 hr{
 border:2px solid #cc8091;

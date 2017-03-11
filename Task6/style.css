@@ -14,7 +14,7 @@ width:980px;
 height:1386px;
 margin:0 auto;
 background-color:#fff;
-padding:0 40px;
+padding:0 44px;
 }
 .ife{
 width:110px;
@@ -31,7 +31,7 @@ bottom:2px;
 left:4px;
 }
 header{
- margin-bottom:40px;
+ margin-bottom:30px;
  position:relative;
 }
 .date{
@@ -43,8 +43,10 @@ right:0;
 bottom:4px;
 }
 .lineone{
-border:2px solid #938e8c;
+color: #938e8c;
 margin-top:0;
+ width:892px;
+ height:2px;
 }
 .one{
 position:relative;

@@ -11,18 +11,15 @@ body{
   width:980px;
   height:1386px;
   padding:0 45px;
+  margin:0 auto;
   font-family:"Microsoft Yahei";
   color:#767777;
   font-size:12px;
 }
-header{
-  width:auto;
-  height:63px;
-  position:realtive;
-}
 .ife{
   background-color:#d45d5c;
   height:61px;
+  width:110px;
   position:relative;
 }
 .ife p {
@@ -37,6 +34,7 @@ header{
   color:#d45d5c;
   display:absolute;
   float:right;
+  bottom:6px;
 }
 .lineone{
   border:2px solid #938e8c;

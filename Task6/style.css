@@ -102,7 +102,7 @@ header{
   left:0;
 }
 .below1{
-  position:relative;
+  position:absolute;
   bottom:0;
   left:0;
 }

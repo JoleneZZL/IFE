@@ -83,6 +83,7 @@ header{
   color:#000;
   text-decoration:underline;
   line-height:40px;
+  transform:uppercase;
 }
 .fonts1 h2 span{
   font-size:30px;
@@ -124,4 +125,60 @@ header{
   bottom:0;
   left:91px;
 }
-  
+.two{ 
+ position:relative;
+ margin-top:40px;
+}
+.two div{
+ margin-right:28px;
+ margin-bottom:20px;
+ float:left;
+}
+.two p {
+ color:#767777;
+ font-family:"Simsun";
+ line-height:16px;
+ clear:both;
+}
+.what h2{
+ font-size:16px;
+ color:#418c59;
+ font-style:bold;
+ text-decoration:underline;
+ margin-bottom:10px;
+ }
+.what{
+ width:224px;
+}
+.when h2{
+ font-size:16px;
+ color:#d2994f;
+ font-style:bold;
+ text-decoration:underline;
+ margin-bottom:10px;
+ }
+.when{
+ width:204px;
+}
+.how h2{
+ font-size:16px;
+ color:#cc7680;
+ font-style:bold;
+ text-decoration:underline;
+ margin-bottom:10px;
+ }
+.how{
+ width:130px;
+}
+.w3{
+ color:#231815;
+ line-height:16px;
+ opacity:70%;
+}
+.w3 span{
+ color:#cd4a48;
+ font-style:italic;
+ line-height:16px;
+ opacity:70%
+}
+

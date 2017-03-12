@@ -14,7 +14,11 @@ body{
   width:980px;
   height:1386px;
   padding:0 45px;
-  margin:40px auto;
+  margin:0 auto;
+}
+header{
+  margin-bottom:30px;
+  display:relative;
 }
 .ife{
   background-color:#d45d5c;
@@ -29,13 +33,10 @@ body{
   bottom:6px;
   left:6px;
 }
-header{
-  margin-bottom:30px;
-  display:relative;
-}
 .date{
   font-family:"SimHei";
   color:#d45d5c;
+  position:absolute;
   right:0;
   bottom:6px;
 }
@@ -55,7 +56,7 @@ header{
   opacity:0.5;
   width:191px;
   height:301px;
-  display:absolute;
+  position:absolute;
   top:0;
 }
 .colorright{
@@ -63,7 +64,8 @@ header{
   opacity:0.5;
   width:191px;
   height:301px;
-  display:absolute;
+ position:absolute;
   top:0;
   right:252px;
 }
+

@@ -29,6 +29,10 @@ body{
   bottom:6px;
   left:6px;
 }
+header{
+  margin-bottom:30px;
+  display:relative;
+}
 .date{
   font-family:"SimHei";
   color:#d45d5c;
@@ -40,10 +44,12 @@ body{
   border:2px solid #938e8c;
   margin-bottom:0;
 }
+.one{
+ display:realtive; 
+}
 .img1{
   width:641px;
   height:301px;
-  display:relative;
   z-index:0;
 }
 .colorleft{

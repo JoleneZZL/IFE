@@ -32,10 +32,13 @@ body{
 .date{
   font-family:"SimHei";
   color:#d45d5c;
-  float:right;
+  display:absolute;
+  right:0;
+  bottom:6px;
 }
 .lineone{
   border:2px solid #938e8c;
+  margin-bottom:0;
 }
   
   

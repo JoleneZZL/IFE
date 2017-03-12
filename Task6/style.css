@@ -36,6 +36,8 @@ header{
 .date{
   font-family:"SimHei";
   color:#d45d5c;
+  right:0;
+  bottom:6px;
 }
 .lineone{
   border:2px solid #938e8c;
@@ -49,16 +51,15 @@ header{
   height:301px;
 }
 .colorleft{
-  color:#75b86b;
+  background:#75b86b;
   opacity:0.5;
   width:191px;
   height:301px;
   display:absolute;
-  left:0;
   top:0;
 }
 .colorright{
-  color:#d45d5c;
+  background:#d45d5c;
   opacity:0.5;
   width:191px;
   height:301px;

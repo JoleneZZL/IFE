@@ -95,11 +95,10 @@ header{
 .num1{
   font-size:116px;
   color:#75b86b;
-  text-decoration:underline;
   font-style:italic;
   position:absolute;
   top:80px;
-  left:0;
+  left:-20px;
 }
 .below1{
   position:absolute;
@@ -110,7 +109,7 @@ header{
   font-size:55px;
   color:#cc8091;
   position:absolute;
-  bottom:0;
+  bottom:-10px;
   left:11px;
 }
 .css{

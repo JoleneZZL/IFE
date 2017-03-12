@@ -197,7 +197,7 @@ header{
   color:#11456b;
   font-family:"SimHei";
   font-size:42px;
-  font-style:bold;
+  font-weight:bold;
   line-height:16px;
   transform:uppercase;
 }
@@ -205,7 +205,7 @@ header{
   color:#11456b;
   font-size:33px;
   font-family:"SimHei";
-  font-style:bold;
+  font-weight:bold;
   margin-bottom:16px;
 }
 .line2{

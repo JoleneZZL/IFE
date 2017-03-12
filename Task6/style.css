@@ -14,7 +14,7 @@ body{
   width:980px;
   height:1386px;
   padding:0 45px;
-  margin:0 auto;
+  margin:40px auto;
 }
 header{
   margin-bottom:30px;
@@ -64,7 +64,7 @@ header{
   opacity:0.5;
   width:191px;
   height:301px;
- position:absolute;
+  position:absolute;
   top:0;
   right:252px;
 }

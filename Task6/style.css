@@ -78,13 +78,13 @@ header{
 .fonts1 hr{
   border:2px solid #cc8091;
 }
-.fonts h2{
+.fonts1 h2{
   font-size:24px;
-  color:#fff;
+  color:#000;
   text-decoration:underline;
   line-height:40px;
 }
-.fonts h2 span{
+.fonts1 h2 span{
   font-size:30px;
 }
 .caption{
@@ -98,8 +98,8 @@ header{
   text-decoration:underline;
   font-style:italic;
   position:absolute;
-  top:139px;
-  left:3px;
+  top:100px;
+  left:0;
 }
 .below1{
   position:relative;

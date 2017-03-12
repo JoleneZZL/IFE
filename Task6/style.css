@@ -186,12 +186,13 @@ header{
   width:415px;
 }
 .fonts2 span{
-  transform:uppercase;
+  text-transform:uppercase;
   font-size:72px;
   color:#f5e327;
   font-family:"SimHei";
-  font-style:italic bold;
+  font-style:italic;
   line-height:16px;
+  margin-right:16px;
 }
 .fonts2 {
   color:#11456b;
@@ -199,7 +200,7 @@ header{
   font-size:42px;
   font-weight:bold;
   line-height:16px;
-  transform:uppercase;
+  text-transform:uppercase;
 }
 .ch {
   color:#11456b;

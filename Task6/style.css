@@ -211,5 +211,26 @@ header{
 }
 .line2{
   border:2px solid #11456b;
+  margin-bottom:16px;
 }
+.below2 p span{
+   font-size:70px;
+   color:#f5e327;
+   float:left;
+   padding:10px;
+}
+.below2 p{
+  line-height:16px;
+}
+.below2 ,.aside1,.aside2{
+  text-indent:2em;
+}
+.img2{
+  float:right;
+  padding:15px;
+  width:166px;
+  height:290px;
+}
+}
+
   

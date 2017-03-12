@@ -1,5 +1,8 @@
 body{
-  background-color:#767777
+  background-color:#767777;
+  font-family:"Microsoft Yahei";
+  color:#767777;
+  font-size:12px;
   margin:0 auto;
 }
 *{
@@ -12,9 +15,6 @@ body{
   height:1386px;
   padding:0 45px;
   margin:40px auto;
-  font-family:"Microsoft Yahei";
-  color:#767777;
-  font-size:12px;
 }
 .ife{
   background-color:#d45d5c;
@@ -32,10 +32,7 @@ body{
 .date{
   font-family:"SimHei";
   color:#d45d5c;
-  display:absolute;
-  position:absoulte;
-  right:6px;
-  bottom:6px;
+  float:right;
 }
 .lineone{
   border:2px solid #938e8c;

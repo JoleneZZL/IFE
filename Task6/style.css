@@ -33,7 +33,7 @@ body{
   font-family:"SimHei";
   color:#d45d5c;
   display:absolute;
-  right:0;
+  float:right;
   bottom:6px;
 }
 .lineone{

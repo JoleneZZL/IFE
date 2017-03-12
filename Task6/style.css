@@ -182,7 +182,7 @@ header{
  opacity:70%
 }
 .three{
-  clear:both;
+  float:left;
   width:415px;
 }
 .fonts2 span{
@@ -232,6 +232,40 @@ header{
   width:166px;
   height:290px;
 }
-
+.four{
+  float:right;
+  width:458px;
+}
+.img3{
+  width:458px;
+  height:275px;
+}
+.colortwo{
+  background:#000;
+  height:61px;
+  width:458px;
+  position:absolute;
+  bottom:0;
+  opacity:70%;
+}
+.describe{
+  position:absolute;
+  bottom:10px;
+  left:70px;
+  height:44px;
+  border-left:3px solid #72b16a;
+}
+}
+.describe p span{
+  font-size:26px;
+  color:#fff;
+}
+.describe p{
+  color:72b16a;
+  font-style:italic;
+  line-height:140%
+}
+  
+  
 
   

@@ -29,13 +29,7 @@ body{
   bottom:6px;
   left:6px;
 }
-.date{
-  font-family:"SimHei";
-  color:#d45d5c;
-  display:absolute;
-  right:6px;
-  bottom:6px;
-}
+
 .lineone{
   border:2px solid #938e8c;
   margin-bottom:0;

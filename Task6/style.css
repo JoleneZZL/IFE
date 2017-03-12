@@ -29,10 +29,33 @@ body{
   bottom:6px;
   left:6px;
 }
-
+.date{
+  font-family:"SimHei";
+  color:#d45d5c;
+  position:absolute;
+  right:0;
+  bottom:6px;
+}
 .lineone{
   border:2px solid #938e8c;
   margin-bottom:0;
 }
-  
-  
+.img1{
+  width:641px;
+  height:301px;
+  display:relative;
+}
+.colorleft{
+  color:#75b86b;
+  opacity:0.5;
+  width:191px;
+  display:absolute;
+  float:left;
+}
+.colorright{
+  color:#d45d5c;
+  opacity:0.5;
+  width:191px;
+  display:absolute;
+  float:right;
+}

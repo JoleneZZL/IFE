@@ -45,7 +45,7 @@ header{
   margin-top:0;
 }
 .one{
- display:relative; 
+  position:relative; 
 }
 .img1{
   width:641px;

@@ -354,7 +354,7 @@ footer{
  clear:both;
  border-top:1px solid #938e8c;
 }
-footer.baidu {
+footer p {
   float:right;
   padding:2px;
   font-family:"SimHei";

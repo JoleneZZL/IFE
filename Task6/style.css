@@ -306,20 +306,35 @@ header{
   color:#fff;
   padding:0 10px;
 }
-.line3{
+.below4.line3{
   border-left:2px solid #fff;
   height:86px;
   float:left;
   margin-top:40px;
+}
+.mark1{
   color:#fff;
   font-family:"SimHei";
+  font-size:21px;
   line-height:6px;
 }
 .mark2{
-  font-size:21px;
+  font-size:12px;
   line-height:24px;
   font-style:italic;
+  line-height:6px;
 }
-  
+.below5.first{
+  font-size:72px;
+  font-family:"SimHei";
+  color:#d45d5c;
+}
+.below5 p{
+  font-size:14px;
+  color:#5a5b4b;
+  line-height:16px;
+  font-family:"SimHei";
+  font-style:italic;
+}
 
   

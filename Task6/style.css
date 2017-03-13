@@ -295,8 +295,31 @@ header{
   position:absolute;
   right:0;
 }
-  
-  
+.below4{
+  background-color:#d45d5c;
+  width:260px;
+  height:160px;
+  float:left;
+}
+.below4 span{
+  font-size:110px;
+  color:#fff;
+  padding:0 10px;
+}
+.line3{
+  border-left:2px solid #fff;
+  height:86px;
+  float:left;
+  margin-top:40px;
+  color:#fff;
+  font-family:"SimHei";
+  line-height:6px;
+}
+.mark2{
+  font-size:21px;
+  line-height:24px;
+  font-style:italic;
+}
   
 
   

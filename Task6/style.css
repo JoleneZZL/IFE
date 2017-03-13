@@ -127,7 +127,8 @@ header{
 }
 .two{ 
  position:relative;
- margin-top:40px;
+ margin:20px; 
+ width:640px;
 }
 .two div{
  margin-right:28px;
@@ -169,9 +170,6 @@ header{
  }
 .how{
  width:130px;
-}
-.w3{
-  float:left;
 }
 .w3 p {
  color:#231815;

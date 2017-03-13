@@ -234,9 +234,12 @@ header{
   height:290px;
 }
 .four{
-  position:relative;
   float:right;
   width:458px;
+}
+.up{
+   position:relative;
+   margin-top:15px;
 }
 .img3{
   width:458px;
@@ -248,7 +251,7 @@ header{
   width:458px;
   position:absolute;
   bottom:0;
-  background-color:rgba(0,0,0,3);
+  background-color:rgba(0,0,0,0,0.3);
 }
 .describe{
   position:absolute;

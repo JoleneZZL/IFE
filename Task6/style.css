@@ -171,11 +171,14 @@ header{
  width:130px;
 }
 .w3{
+  float:left;
+}
+.w3 p {
  color:#231815;
  line-height:16px;
  opacity:70%;
 }
-.w3 span{
+.w3 p span{
  color:#cd4a48;
  font-style:italic;
  line-height:16px;

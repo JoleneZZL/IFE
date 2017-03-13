@@ -348,13 +348,13 @@ header{
   font-family:"SimHei";
   font-style:italic;
 }
-.footer{
+footer{
  width:892px;
  height:60px;
  clear:both;
  border-top:1px solid #938e8c;
 }
-.baidu {
+footer.baidu {
   float:right;
   padding:2px;
   font-family:"SimHei";

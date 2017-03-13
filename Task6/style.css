@@ -321,7 +321,7 @@ header{
 }
 .mark2{
   font-size:12px;
-  line-height:6px;
+  line-height:16px;
   color:#fff;
 }
 .below5{
@@ -334,6 +334,12 @@ header{
   font-size:72px;
   font-family:"SimHei";
   color:#d45d5c;
+}
+.poordaddy1{
+ margin:-18px 0 10px -40px;
+}
+.poordaddy2{
+ float:right; 
 }
 .below5 p{
   font-size:14px;
@@ -348,7 +354,7 @@ header{
  clear:both;
  border-top:1px solid #938e8c;
 }
-.footer p {
+.baidu {
   float:right;
   padding:2px;
   font-family:"SimHei";

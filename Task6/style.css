@@ -262,13 +262,38 @@ header{
   color:#72b16a;
   font-style:italic;
   line-height:140%;
-  padding-bottom:10px;
+  padding-top:15px;
 }
 .describe span{
   font-size:26px;
   color:#fff;
 }
-
+.last{
+  background-color:#eeedd6;
+  height:315px;
+  width:459px;
+  margin-top:50px;
+}
+.below3 p {
+  font-family:"Simsun";
+  font-size:16px;
+  color:#5a5b5b;
+  line-height:20px;
+  margin-left:32px;
+  padding-top:15px;
+}
+.below3 .tri{
+  width:0;
+  height:0;
+  border-left:5px solid transparent;
+  border-right:5px solid transparent;
+  border-bottom:10px solid #10456b;
+  display:inline-block;
+}
+.below.qianduan2{
+  font-style:italic;
+}
+  
   
   
 

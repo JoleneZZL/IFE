@@ -273,11 +273,11 @@ header{
   width:459px;
   margin-top:50px;
 }
-.below3 {
+.below3 p{
   font-family:"Simsun";
   font-size:16px;
   color:#5a5b5b;
-  line-height:20px;
+  line-height:40px;
   margin-left:32px;
   padding-top:15px;
   position:relative;

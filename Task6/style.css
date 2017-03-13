@@ -261,12 +261,11 @@ header{
   border-left:3px solid #72b16a;
   color:#72b16a;
   font-style:italic;
-  line-height:140%;
-  padding-top:15px;
 }
 .describe span{
   font-size:26px;
   color:#fff;
+  font-style:none;
 }
 .last{
   background-color:#eeedd6;
@@ -274,13 +273,14 @@ header{
   width:459px;
   margin-top:50px;
 }
-.below3 p {
+.below3 {
   font-family:"Simsun";
   font-size:16px;
   color:#5a5b5b;
   line-height:20px;
   margin-left:32px;
   padding-top:15px;
+  position:relative;
 }
 .below3 .tri{
   width:0;
@@ -292,6 +292,8 @@ header{
 }
 .below.qianduan2{
   font-style:italic;
+  position:absolute;
+  right:0;
 }
   
   

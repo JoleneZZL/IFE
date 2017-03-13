@@ -316,15 +316,14 @@ header{
   color:#fff;
   font-family:"SimHei";
   font-size:21px;
-  line-height:6px;
+  line-height:24px;
 }
 .mark2{
   font-size:12px;
-  line-height:24px;
   font-style:italic;
   line-height:6px;
 }
-.below5.first{
+.below5 p span{
   font-size:72px;
   font-family:"SimHei";
   color:#d45d5c;
@@ -336,5 +335,14 @@ header{
   font-family:"SimHei";
   font-style:italic;
 }
-
+.footer{
+  margin-top:20px;
+  border-top: 1px solid #938e8c;
+  font-family:"SimHei";
+  color:#d45d5c;
+}
+.footer p {
+  float:right;
+  padding:2px;
+}
   

@@ -170,12 +170,12 @@ header{
 .how{
  width:130px;
 }
-.w3 p {
+.w3 {
  color:#231815;
  line-height:16px;
  opacity:70%;
 }
-.w3 p span{
+.w3 span{
  color:#cd4a48;
  font-style:italic;
  line-height:16px;
@@ -184,6 +184,8 @@ header{
 .three{
   float:left;
   width:415px;
+  margin-top:30px;
+  margin-bottom:30px;
 }
 .fonts2 span{
   text-transform:uppercase;
@@ -217,8 +219,7 @@ header{
    font-size:70px;
    color:#f5e327;
    float:left;
-   padding:10px;
-   margin:20px;
+   padding:20px 10px 30px 0;
 }
 .below2 p{
   line-height:16px;

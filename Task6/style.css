@@ -126,9 +126,8 @@ header{
   left:91px;
 }
 .two{ 
- position:relative;
- margin:20px; 
- width:640px;
+ margin:20px 0 ; 
+ width:650px;
 }
 .two div{
  margin-right:28px;

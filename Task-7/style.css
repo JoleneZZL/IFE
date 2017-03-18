@@ -10,4 +10,29 @@ background-color:#fff;
 .header{
 width:100%;
 height:60px;
+position:relative;
+}
+.header p{
+  width:130px;
+  height:60px;
+  padding:15px;
+  color:#000;
+  font-family:"SimHei";
+  font-size:21px;
+}
+.header ul{
+  display:inline-block;
+  position:absolute;
+  top:auto;
+  right:65px;
+}
+.header ul li{
+  list-style:none;
+  margin:45px;
+  font-family:"Microsoft Yahei";
+  font-size:14px;
+  color:#fff;
+}
+.header ul li span{
+  color:#e74f4d;
 }

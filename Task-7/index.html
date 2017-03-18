@@ -56,23 +56,31 @@
 <h2>查找新世界活动信息</h2>
 <hr>
 <p>每个世界都有不同的活动信息，请自主查询您所需要了解的城市。</p>
-<form action="save.php" method="get">
-<input class="China" type="text" value="China"/>
-<select class="province">
-<input type="text" value="Province"/>
-<option value="北京市">北京市</option>
-<option value="天津市">天津市</option>
-<option value="河北市">河北市</option>
-<option value="陕西市">陕西市</option>
-<option value="内蒙古自治区">内蒙古自治区</option>
-<option value="辽宁省">辽宁省</option>
-</select>
-<select class="city">
-<input type="text" value="City"/>
-</select>
-<input class="btn1" type="submit" value="Search" name="btn"/>
-</form>
-</div>
+<ul>
+ <li><input list="country" type="text" placeholder="Country"/>
+     <datalist id="country">
+      <option value="China"></option>
+      <option value="France"></option>
+      <option value="America"></option>
+      </datalist></li>
+<li><input type="text" list="province" name="province" placeholder="浙江省" />
+     <datalist id="province">
+     <option value="北京市">北京市</option>
+     <option value="天津市">天津市</option>
+     <option value="河北市">河北市</option>
+     <option value="陕西市">陕西市</option>
+     <option value="内蒙古自治区">内蒙古自治区</option>
+     <option value="辽宁省">辽宁省</option>
+     </datalist></li>
+<li><input type="text" value="City" list="city" placeholder="city"/>
+    <datalist id="city">
+     <option value="Beijing"></option>
+     <option value="Shanghai"></option>
+     <option value="Hangzhou"></option>
+     </datalist></li>
+ <li><input class="btn1" type="submit" value="Search" name="btn"/></li>
+</ul>
+ </div>
 </div>
 <div class="pictures">
 <div class="img1"><img src="./ task7(13).jpg"><p>北京活动，新社区大联盟</div>

@@ -15,7 +15,6 @@ position:relative;
  display:inline-block;
  margin-left:56px;
  height:50px;
- width:130px;
 }
 .logo img{
   margin-right:10px;
@@ -25,7 +24,7 @@ position:relative;
   font-family:"SimHei";
   font-size:21px;
 }
-.nav ul{
+.nav{
   display:inline-block;
   position:absolute;
   top:auto;

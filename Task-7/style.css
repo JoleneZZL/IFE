@@ -23,14 +23,17 @@ position:relative;
   font-family:"SimHei";
   font-size:21px;
   margin-left:55px;
-  margin-top:-50px;
+  margin-top:-35px;
 }
 .nav{
   position:absolute;
-  margin-top:-75px;
+  margin-top:-60px;
   right:65px;
   height:50px;
-  width:597px;
+  width:650px;
+}
+.nav img{
+ margin-top:15px;
 }
 .nav a{
   text-decoration:none;
@@ -74,7 +77,7 @@ position:relative;
  font-family:"Microsoft Yahei";
  font-size:21px;
  color:#fff;
- line-height:3em;
+ line-height:2em;
 }
 .open a{
  text-decoration:none;
@@ -88,4 +91,22 @@ position:relative;
  color:#fff;
  letter-spacing:3px;
 }
- 
+.two{
+ height:250px;
+ background-color:#fff;
+ position:relative;
+}
+.circle,.flag,.flower,.square{
+ height:250px;
+ width:25%;
+ float:left;
+}
+.two p{
+ font-family:"Simhei";
+ font-size:14px;
+ color:#767777;
+ text-align:center;
+ padding-top:20px;
+ border-right:1px solid;
+}
+

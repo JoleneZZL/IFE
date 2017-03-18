@@ -23,10 +23,11 @@ position:relative;
   font-family:"SimHei";
   font-size:21px;
   margin-left:55px;
+  margin-top:-50px;
 }
 .nav{
   position:absolute;
-  margin-top:0;
+  margin-top:-75px;
   right:65px;
   height:50px;
   width:597px;

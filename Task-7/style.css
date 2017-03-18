@@ -30,6 +30,7 @@ position:relative;
   position:absolute;
   top:15px;
   right:65px;
+  height:50px;
 }
 .nav a{
   text-decoration:none;

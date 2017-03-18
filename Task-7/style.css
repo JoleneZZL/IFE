@@ -15,6 +15,7 @@ position:relative;
  display:inline-block;
  margin-left:56px;
  height:50px;
+ float:left;
 }
 .logo img{
   margin-right:10px;
@@ -27,10 +28,10 @@ position:relative;
 }
 .nav{
   position:absolute;
-  top:auto;
+  top:15px;
   right:65px;
 }
-.nav a:{
+.nav a{
   text-decoration:none;
   font-family:"Microsoft Yahei";
   font-size:14px;

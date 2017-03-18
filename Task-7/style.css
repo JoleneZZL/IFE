@@ -23,22 +23,23 @@ position:relative;
   color:#000;
   font-family:"SimHei";
   font-size:21px;
+  float:left;
 }
 .nav{
-  display:inline-block;
   position:absolute;
   top:auto;
   right:65px;
 }
-.nav a{
+.nav a:{
   text-decoration:none;
-}
-.nav ul li{
-  list-style:none;
-  margin:45px;
   font-family:"Microsoft Yahei";
   font-size:14px;
   color:#fff;
+}
+.nav ul li{
+  display:inline-block;
+  list-style:none;
+  margin:45px;
 }
 .nav ul li span{
   color:#e74f4d;

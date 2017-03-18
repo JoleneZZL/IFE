@@ -6,6 +6,7 @@ margin:0;
 width:100%;
 height:100%;
 background-color:#fff;
+overflow:hidden;
 }
 .header{
 height:60px;
@@ -21,10 +22,11 @@ position:relative;
   color:#000;
   font-family:"SimHei";
   font-size:21px;
+  margin-left:55px;
 }
 .nav{
   position:absolute;
-  padding-top:15px;
+  margin-top:0;
   right:65px;
   height:50px;
   width:597px;
@@ -71,18 +73,18 @@ position:relative;
  font-family:"Microsoft Yahei";
  font-size:21px;
  color:#fff;
+ line-height:0.5em;
 }
 .open a{
  text-decoration:none;
  display:block;
- width:333px;
- height:65px;
- padding-left:5px;
- padding-bottom:0;
+ padding:16px 100px;
+ margin:15px;
  background-color:#e7504d;
  font-family:"Microsoft Yahei";
  font-size:30px;
  text-align:center;
  color:#fff;
+ letter-spacing:3px;
 }
  

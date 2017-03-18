@@ -15,6 +15,7 @@ position:relative;
  display:inline-block;
  margin-left:56px;
  height:50px;
+ background:url("./task7 (5).jpg") 0 12px no-repeat;
 }
 .logo h1{
   color:#000;
@@ -40,7 +41,7 @@ position:relative;
 }
 .nav ul li span{
   color:#e74f4d;
+  text-indent:10px;
+  background:url(./task(7) 6.jpg")8px 18px no-repeat;
 }
-.nav ul li img{
- top:25px;
-}
+

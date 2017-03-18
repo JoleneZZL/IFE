@@ -8,40 +8,39 @@ height:100%;
 background-color:#fff;
 }
 .header{
-height:55px;
+height:60px;
 position:relative;
 }
 .logo{
  display:inline-block;
  margin-left:56px;
+ height:50px;
+ width:130px;
 }
 .logo img{
   margin-right:10px;
 }
-.header p{
-  width:130px;
-  height:60px;
-  padding:15px;
+.logo h1{
   color:#000;
   font-family:"SimHei";
   font-size:21px;
 }
-.header ul{
+.nav ul{
   display:inline-block;
   position:absolute;
   top:auto;
   right:65px;
 }
-.header a{
+.nav a{
   text-decoration:none;
 }
-.header ul li{
+.nav ul li{
   list-style:none;
   margin:45px;
   font-family:"Microsoft Yahei";
   font-size:14px;
   color:#fff;
 }
-.header ul li span{
+.nav ul li span{
   color:#e74f4d;
 }

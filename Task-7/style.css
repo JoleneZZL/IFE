@@ -23,7 +23,7 @@ position:relative;
 }
 .nav{
   position:absolute;
-  top:15px;
+  padding-top:15px;
   right:65px;
   height:50px;
   width:597px;
@@ -37,7 +37,7 @@ position:relative;
 .nav ul li{
   display:inline-block;
   list-style:none;
-  margin:45px;
+  margin-left:45px;
 }
 .nav ul li span{
   color:#e74f4d;
@@ -63,6 +63,7 @@ position:relative;
  font-size:60px;
  color:#fff;
  text-transform:uppercase;
+ font-weight:lighter;
 }
 .open p{
  text-indent:7px;

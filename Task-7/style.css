@@ -205,20 +205,20 @@ position:relative;
  width:66%;
  height:100%;
 }
-.fonts{
+.fonts1{
  width:100%;
  top:130px;
  position:absolute;
  line-height:10px;
 }
-.fonts h1{
+.fonts1 h1{
  font-size:49.47px;
  color:#fff;
  font-family:"Microsoft Yahei";
  width:100%;
  text-align:center;
 }
-.fonts.en{
+.fonts1.en{
  text-transform:uppercase;
  font-size:157.79px;
  font-family:"Microsoft Yahei";
@@ -227,7 +227,7 @@ position:relative;
  text-align:center;
  letter-spacing:0.5em;
 }
-.fonts.caption1,.fonts.date{
+.fonts1.caption1,.fonts.date{
   font-size:21.91px;
   font-family:"Microsoft Yahei";
   color:#fff;

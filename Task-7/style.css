@@ -214,7 +214,7 @@ position:relative;
  top:80px;
  position:absolute;
  line-height:85px;
- left:100px;
+ left:15%;
 }
 .fonts1 h1{
  font-size:49.47px;
@@ -261,26 +261,26 @@ position:relative;
  font-size:12px;
  font-family:"Microsoft Yahei";
  position:absolute;
- top:200px;
+ top:150px;
  line-height:2em;
- width:100%;
+ width:80%;
+ left:10%;
  text-align:center;
 }
 .down1{
  border:1px solid #e7504d;
  position:absolute;
- top:325px;
+ top:305px;
  color:#e7504d;
- left:80px;
+ left:35%;
 }
 .down1 p {
  font-size:15px;
  font-family:"Microsoft Yahei";
- padding:10px;
+ padding:10px 30px;
  letter-spacing:1.5em;
- text-align:center;
 }
-.dot ul{
+.dot{
  width:40%;
  position:absolute;
  top:365px;
@@ -307,24 +307,37 @@ position:relative;
  position:relative;
  clear:both;
 }
-.left2,.middle2,.right2{
- position:absolute;
- width:33.3%;
+.colorband li{
+ list-style:none;
  float:left;
- font-family:"Microsoft Yahei";
- font-size:21px;
+ width:33.3%;
+ height:150px;
  text-align:center;
+ padding-top:170px;
+ padding-bottom:200px;
+ overflow:hidden;
 }
-.left2{
- background-color:#e74f4d;
- padding:165px auto;
+.colorband p{
+ font-size:25px;
+ font-family:"Microsoft Yahei";
+ line-height:32px;
+ color:#000;
+}
+.red{
+ background-color:#e7504d;
  color:#fff;
 }
-.middle2{
- background-color:#fff;
- padding:165px auto;
- color:#000;
-} 
- 
+.colorband button{
+ color:#e7504d;
+ border:1px solid #e7504d;
+ margin-top:10px;
+ padding:10px 30px;
+ font-size:25px;
+}
+.colorband li:last-child{
+ width:33.3%;
+ background:url(./task7 (3).jpg) no-repeat center center;
+ background-size:100% 100%;
+}
  
  

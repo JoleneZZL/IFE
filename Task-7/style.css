@@ -204,15 +204,17 @@ position:relative;
 .pants{
  width:66%;
  height:100%;
+ float:left;
 }
 .pants img{
  width:100%;
  height:100%;
 }
 .fonts1{
- top:130px;
+ top:80px;
  position:absolute;
- line-height:10px;
+ line-height:85px;
+ left:100px;
 }
 .fonts1 h1{
  font-size:49.47px;
@@ -228,7 +230,6 @@ position:relative;
  color:#fff;
  width:100%;
  text-align:center;
- letter-spacing:0.5em;
 }
 .caption1,.date{
   font-size:21.91px;
@@ -249,7 +250,8 @@ position:relative;
  color:#000;
  width:100%;
  position:absolute;
- top:160px;
+ top:130px;
+ text-align:center;
 }
 .up1 span{
  color:#e7504d;
@@ -259,35 +261,38 @@ position:relative;
  font-size:12px;
  font-family:"Microsoft Yahei";
  position:absolute;
- top:215px;
+ top:200px;
  line-height:2em;
- padding:0 auto;
+ width:100%;
+ text-align:center;
 }
 .down1{
  border:1px solid #e7504d;
  position:absolute;
- top:365px;
+ top:325px;
  color:#e7504d;
+ left:80px;
 }
 .down1 p {
  font-size:15px;
  font-family:"Microsoft Yahei";
  padding:10px;
  letter-spacing:1.5em;
+ text-align:center;
 }
 .dot ul{
  width:40%;
  position:absolute;
- top:425px;
+ top:365px;
  left:30%;
  list-style:none;
  height:10px;
 }
-.dot ul li{
+.dot li{
  box-sizing:border-box;
  float:left;
 }
-.dot ul li i{
+.dot i{
  display:inline-block;
  border:1px solid #ccc;
  height:10px;

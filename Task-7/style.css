@@ -204,10 +204,9 @@ position:relative;
 .pants{
  width:66%;
  height:100%;
- float:left;
 }
 .pants img{
- width:66%;
+ width:100%;
  height:100%;
 }
 .fonts1{
@@ -219,7 +218,7 @@ position:relative;
  font-size:49.47px;
  color:#fff;
  font-family:"Microsoft Yahei";
- width:666%;
+ width:100%;
  text-align:center;
 }
 .en{
@@ -227,7 +226,7 @@ position:relative;
  font-size:157.79px;
  font-family:"Microsoft Yahei";
  color:#fff;
- width:66%;
+ width:100%;
  text-align:center;
  letter-spacing:0.5em;
 }
@@ -235,7 +234,7 @@ position:relative;
   font-size:21.91px;
   font-family:"Microsoft Yahei";
   color:#fff;
-  width:66%;
+  width:100%;
   text-align:center;
 }
 .rightside{

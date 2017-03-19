@@ -118,9 +118,9 @@ position:relative;
  font-family:"Microsoft Yahei";
  font-size:53.59px;
  position:absolute;
- top:225px;
- left:210px;
- padding:0 auto;
+ margin-top:225px;
+ margin-left:auto;
+ margin-right:auto;
  color:#323333;
  font-weight:lighter;
  text-align:center;
@@ -131,9 +131,9 @@ position:relative;
  color:#fff;
  text-align:center;
  position:absolute;
- top:405px;
- left:500px;
- padding:10px auto;
+ margin-top:405px;
+ margin-left:auto;
+ margin-right:auto;
 }
 .find hr{
  border:2px solid #fff;

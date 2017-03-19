@@ -319,7 +319,7 @@ position:relative;
 }
 .colorband li:last-child{
  width:33.3%;
- background-image:url(./task7 (3).jpg) no-repeat center center;
+ background-image:url(IFE/Task-7/task7 (3).jpg) no-repeat center center;
  background-size: 100% 100%;
 }
 .colorband li p{
@@ -356,12 +356,122 @@ position:relative;
 }
 .voluteer hr{
  border:2px solid #e7504d;
+ width:5px;
 }
 .volunteer p{
  font-size:12px;
  font-family:"Microsoft Yahei";
- width:40%;
+ width:60%;
  color:#000;
+ width:25%;
 }
- 
+.left3{
+ float:left;
+ width:25%;
+ margin-left:10%;
+}
+.left3 ul{
+ list-style:none;
+}
+.left3 li{
+ color:#ccc;
+ padding:10px;
+}
+.left3 h4{
+ font-size:20px;
+ line-height:20px;
+ color:#979594;
+}
+.left3 p{
+ padding:5px;
+}
+.left3 a{
+ text-decoration:none;
+ color:#ccc;
+ padding:5px 11px;
+ display:block;
+ text-align:right;
+ cursor: pointer;
+}
+.right3{
+ float:left;
+ width:60%;
+}
+.right3 table{
+ border:none;
+ width:100%
+}
+.right3 table tr{
+ height:50px;
+ background-color:#ededee;
+}
+.right3 table td{
+ padding-left:15px;
+}
+.right3 table td input{
+ border:none;
+ outline:none;
+ height:40px;
+ background-color:#ededee;
+}
+.right3 table td textarea{
+ padding-top:15px;
+ width:100%;
+ background-color:#ededee;
+ outline:none;
+ border:none;
+}
+.right3 table td .submit{
+ width:100%;
+ text-align:center;
+}
+footer{
+ position:relative;
+ width:100%;
+ color:#fff;
+ padding-top:90px;
+ text-align:center;
+ background-color:#33363F;
+}
+footer p{
+ margin:10px auto;
+ font-size:10px;
+ line-height:25px;
+ width:60%;
+}
+footer input {
+    margin: 20px -5px;
+    outline: none;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+}
+
+footer .email {
+    width: 40%;
+    padding-left: 5px;
+}
+
+footer .submit {
+    color: #717179;
+    width: 80px;
+}
+footer img{
+ margin-top:15px;
+}
+footer.newworld{
+ text-align:left;
+ padding:15px 30px;
+ background-color:#303039;
+}
+footer a{
+ text-decoration:none;
+}
+footer .back{
+ position:absolute;
+ display:inline-block;
+ bottom:15px;
+ right:30px;
+ cursor:pointer;
+}
  

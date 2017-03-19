@@ -321,9 +321,13 @@ position:relative;
  font-size:25px;
  font-family:"Microsoft Yahei";
  line-height:32px;
- color:#000;
 }
-li.red{
+.colorband li:last-child{
+ width:33.3%;
+ background:url(./task7 (3).jpg) no-repeat center center;
+ background-size:100% 100%;
+}
+.red{
  background-color:#e7504d;
  color:#fff;
 }
@@ -334,14 +338,10 @@ li.red{
  padding:10px 30px;
  font-size:25px;
 }
-li.red button{
+.red button{
   color:#fff;
- border:1px solid #fff;
+  border:1px solid #fff;
 }
-.colorband li:last-child{
- width:33.3%;
- background:url("./task7 (3).jpg") no-repeat center center;
- background-size:100% 100%;
-}
+
  
  

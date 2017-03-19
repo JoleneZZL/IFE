@@ -317,7 +317,7 @@ position:relative;
  padding-bottom:200px;
  overflow:hidden;
 }
-.colorbnd li:last-child{
+.colorband li:last-child{
  width:33.3%;
  background-image:url("./task7 (3).jpg") no-repeat center center;
  background-size: 100% 100%;

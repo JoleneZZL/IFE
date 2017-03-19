@@ -198,10 +198,11 @@ position:relative;
  color:#919191;
  font-size:12px;
 }
+.twobarline{
+  width:100%;
+}
 .pants{
  position:relative;
- width:100%;
- clear:both;
 }
 .pants img{
  width:66%;

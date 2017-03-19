@@ -204,9 +204,13 @@ position:relative;
 .pants{
  width:66%;
  height:100%;
+ float:left;
+}
+.pants img{
+ width:66%;
+ height:100%;
 }
 .fonts1{
- width:100%;
  top:130px;
  position:absolute;
  line-height:10px;
@@ -215,27 +219,27 @@ position:relative;
  font-size:49.47px;
  color:#fff;
  font-family:"Microsoft Yahei";
- width:100%;
+ width:666%;
  text-align:center;
 }
-.fonts1.en{
+.en{
  text-transform:uppercase;
  font-size:157.79px;
  font-family:"Microsoft Yahei";
  color:#fff;
- width:100%;
+ width:66%;
  text-align:center;
  letter-spacing:0.5em;
 }
-.fonts1.caption1,.fonts.date{
+.caption1,.date{
   font-size:21.91px;
   font-family:"Microsoft Yahei";
   color:#fff;
-  width:100%;
+  width:66%;
   text-align:center;
 }
 .rightside{
- float:right;
+ float:left;
  width:34%;
  background-color:#fff;
  position:relative;
@@ -278,6 +282,7 @@ position:relative;
  top:425px;
  left:30%;
  list-style:none;
+ height:10px;
 }
 .dot ul li{
  box-sizing:border-box;

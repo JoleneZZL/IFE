@@ -319,7 +319,7 @@ position:relative;
 }
 .colorband li:last-child{
  width:33.3%;
- background-image:url("./task7 (3).jpg") no-repeat center center;
+ background-image:url(./task7 (3).jpg) no-repeat center center;
  background-size: 100% 100%;
 }
 .colorband li p{

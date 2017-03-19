@@ -305,7 +305,7 @@ position:relative;
  height:520px;
  width:100%;
  position:relative;
- color:both;
+ clear:both;
 }
 .left2,.middle2,.right2{
  position:absolute;

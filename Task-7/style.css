@@ -343,6 +343,24 @@ position:relative;
   border:1px solid #fff;
   background-color:#e7504d;
 }
-
+.voluteer{
+ padding-top:100px;
+ padding-bottom:100px;
+ text-align:center;
+}
+.voluteer h2{
+ font-family:"SimHei";
+ font-size:21px;
+ color:#000;
+}
+.voluteer hr{
+ border:2px solid #e7504d;
+}
+.volunteer p{
+ font-size:12px;
+ font-family:"Microsoft Yahei";
+ width:40%;
+ color:#000;
+}
  
  

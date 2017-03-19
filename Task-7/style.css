@@ -177,7 +177,6 @@ position:relative;
 .pictures{
  background-color:#f8f8f7;
  padding-top:100px;
- padding-bottom:100px;
  height:607px;
 }
 .pictures ul{
@@ -200,23 +199,22 @@ position:relative;
 }
 .twobarline{
   width:100%;
+  position:relative;
 }
 .pants{
- position:relative;
-}
-.pants img{
  width:66%;
  height:100%;
 }
 .fonts{
- width:66%;
+ width:100%;
+ top:130px;
+ position:absolute;
+ line-height:10px;
 }
 .fonts h1{
  font-size:49.47px;
  color:#fff;
  font-family:"Microsoft Yahei";
- position:absolute;
- top:130px;
  width:100%;
  text-align:center;
 }
@@ -225,25 +223,16 @@ position:relative;
  font-size:157.79px;
  font-family:"Microsoft Yahei";
  color:#fff;
- position:absolute;
- top:185px;
  width:100%;
  text-align:center;
- letter-spacing:1em;
+ letter-spacing:0.5em;
 }
 .fonts.caption1,.fonts.date{
   font-size:21.91px;
   font-family:"Microsoft Yahei";
   color:#fff;
-  position:absolute;
   width:100%;
   text-align:center;
-}
-.fonts.caption1{
- top:340px;
-}
-.fonts.date{
- top:390px;
 }
 .rightside{
  float:right;

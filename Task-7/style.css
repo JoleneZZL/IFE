@@ -138,7 +138,7 @@ position:relative;
  width:28px;
  top:450px;
  position:absolute;
- width:100%;
+ left:50%;
  text-align:center;
 }
 .find p{
@@ -174,3 +174,132 @@ position:relative;
  border:none;
  font-family:"Microsoft Yahei";
 }
+.pictures{
+ background-color:#f8f8f7;
+ padding-top:100px;
+ padding-bottom:100px;
+}
+.pictures.ul{
+ width:80%;
+ list-style:none;
+ margin:0 auto;
+}
+.pictures.ul.li{
+ width:20%;
+ float:left;
+ margin:0 2%;
+ text-align:center;
+}
+.pictures.ul.li h3{
+ color:#3a3a3a;
+}
+.pictures.ul.li p{
+ color:#919191;
+ font-size:12px;
+}
+.pants{
+ position:relative;
+ width:100%;
+}
+.pants img{
+ width:66%;
+ height:100%;
+}
+.fonts{
+ width:66%;
+}
+.fonts h1{
+ font-size:49.47px;
+ color:#fff;
+ font-family:"Microsoft Yahei";
+ position:absolute;
+ top:130px;
+ width:100%;
+ text-align:center;
+}
+.fonts.en{
+ text-transform:uppercase;
+ font-size:157.79px;
+ font-family:"Microsoft Yahei";
+ color:#fff;
+ position:absolute;
+ top:185px;
+ width:100%;
+ text-align:center;
+ letter-spacing:1em;
+}
+.fonts.caption1,.fonts.date{
+  font-size:21.91px;
+  font-family:"Microsoft Yahei";
+  color:#fff;
+  position:absolute;
+  width:100%;
+  text-align:center;
+}
+.fonts.caption1{
+ top:340px;
+}
+.fonts.date{
+ top:390px;
+}
+.rightside{
+ float:right;
+ width:34%;
+ background-color:#fff;
+ position:relative;
+}
+.up1 h3{
+ font-size:21px;
+ font-family:"Microsoft Yahei";
+ color:#000;
+ width:100%;
+ position:absolute;
+ top:160px;
+}
+.up1 span{
+ color:#e7504d;
+ letter-spacing:1em;
+}
+.up1 p{
+ font-size:12px;
+ font-family:"Microsoft Yahei";
+ position:absolute;
+ top:215px;
+ line-height:2em;
+ padding:0 auto;
+}
+.down1{
+ border:1px solid #e7504d;
+ position:absolute;
+ top:365px;
+ color:#e7504d;
+}
+.down1 p {
+ font-size:15px;
+ font-family:"Microsoft Yahei";
+ padding:10px;
+ letter-spacing:1.5em;
+}
+.dot ul{
+ width:40%;
+ position:absolute;
+ top:425px;
+ left:30%;
+ list-style:none;
+}
+.dot ul li{
+ box-sizing:border-box;
+ float:left;
+}
+.dot ul li i{
+ display:inline-block;
+ border:1px solid #ccc;
+ height:10px;
+ border-radius:50%;
+}
+.dot.on{
+ background-color:#ccc;
+}
+ 
+ 
+ 

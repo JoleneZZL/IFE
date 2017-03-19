@@ -179,21 +179,21 @@ position:relative;
  padding-top:100px;
  padding-bottom:100px;
 }
-.pictures.ul{
+.pictures ul{
  width:80%;
  list-style:none;
  margin:0 auto;
 }
-.pictures.ul.li{
+.pictures ul li{
  width:20%;
  float:left;
  margin:0 2%;
  text-align:center;
 }
-.pictures.ul.li h3{
+.pictures ul li h3{
  color:#3a3a3a;
 }
-.pictures.ul.li p{
+.pictures ul li p{
  color:#919191;
  font-size:12px;
 }

@@ -28,16 +28,14 @@ header{
  margin-left:10px;
 }
 .nav {
- float:right;
- display:inline-block;
-}
+ float:right;}
 .nav ul{
  list-style:none;
+ display:inline-block;
+}
 }
 .nav a{
  text-decoration:none;
-}
-.nav li{
  font-size:14px;
  padding:auto 25px;
  color:#000;
@@ -63,8 +61,8 @@ header{
 .open h1{
  font-weight:lighter;
  font-size:60px;
- letter-spacing:0.5em;
- line-height:1em;
+ letter-spacing:10px;
+ margin-bottom:40px;
 }
 .open p{
  font-size:21px;
@@ -74,8 +72,6 @@ header{
 .open a{
  text-decoration:none;
  font-size:30px;
-}
-.open.btn{
  border:1px solid #e7504d;
  background-color:#e7504d;
  padding:20px 100px;

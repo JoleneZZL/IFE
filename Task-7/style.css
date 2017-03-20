@@ -28,16 +28,19 @@ header{
  margin-left:10px;
 }
 .nav {
- float:right;}
+ float:right;
+}
 .nav ul{
  list-style:none;
  display:inline-block;
 }
+.nav li{
+ float:left;
+ padding:auto 25px;
 }
 .nav a{
  text-decoration:none;
  font-size:14px;
- padding:auto 25px;
  color:#000;
 }
 .nav span{
@@ -75,4 +78,5 @@ header{
  border:1px solid #e7504d;
  background-color:#e7504d;
  padding:20px 100px;
+ color:#fff;
 }

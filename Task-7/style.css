@@ -10,21 +10,31 @@
 }
 header{
  height:60px;
+ width:100%;
  background-color:#fff;
  padding:10px 20px;
 }
 .logo{
  display:inline-block;
+ padding:10px 20px;
+}
+.logo img{
+ float:left;
 }
 .logo h1{
  font-size:21px;
  color:#000;
+ float:left;
+ margin-left:10px;
 }
 .nav {
  float:right;
 }
 .nav ul{
  list-style:none;
+}
+.nav > ul > a{
+ text-decoration:none;
 }
 .nav > ul > li{
  font-size:14px;

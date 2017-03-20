@@ -33,10 +33,10 @@ header{
 .nav ul{
  list-style:none;
 }
-.nav > ul > a{
+.nav a{
  text-decoration:none;
 }
-.nav > ul > li{
+.nav li{
  font-size:14px;
  padding:auto 25px;
  color:#000;

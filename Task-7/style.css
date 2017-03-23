@@ -221,19 +221,19 @@ header{
  text-align:center;
  color:#fff;
 }
-.fonts h1{
+.fonts1 h1{
  font-size:50px;
  line-height:10px;
 }
-.fonts.en{
+.fonts1.en{
  text-transform:uppercase;
  font-size:158px;
 }
-.fonts.caption1{
+.fonts1.caption1{
  padding-top:20px;
  font-size:21px;
 }
-.fonts.date{
+.fonts1.date{
  padding-top:10px;
  font-size:21px;
 }
@@ -254,16 +254,14 @@ header{
 .up1 h3{
  padding-bottom:30px;
  font-size:20px;
- padding-left:90px;
 }
 .up1 h3 span{
  color:#e7504d;
- letter-spacing:1em;
+ letter-spacing:0.5em;
 }
 .up1 p{
  font-size:15px;
  color:#ccc;
- text-align:center;
 }
 .down1{
  position:absolute;
@@ -273,3 +271,43 @@ header{
  border:1px solid #e7504d;
  color:#e7504d;
 }
+.colorband{
+ width:100%;
+ overflow:hidden;
+}
+.colorband ul{
+ list-style:none;
+ display:block;
+}
+.colorband li{
+ width:33%;
+ float:left;
+ height:520px;
+}
+.colorband li p{
+ width:100%;
+ text-align:center;
+ margin-top:30%;
+ line-height:1em;
+ font-size:16px;
+ color:#000;
+}
+.colorband.more{
+ padding:10px 30px;
+ border:1px solid #e7504d;
+ color:#e7504d;
+}
+.colorband.red{
+ background-color:#e7504d;
+ color:#fff;
+}
+.red.more{
+ border:1px solid #fff;
+ color:#e7504d;
+}
+.colorband li:last-child{
+ background-image:url("./task7 (3).jpg") no-repeat 100% 100%;
+}
+
+ 
+ 

@@ -171,15 +171,34 @@ header{
 }
 .pictures{
  width:100%;
- background-color:#676767;
- margin-top:30px;
- margin-bottom:30px;
+ background-color:#f7f7f7;
+ overflow:hidden;
 }
 .pictures ul{
  list-style:none;
  display:block;
  width:100%;
  text-align:center;
+ padding:100px 130px;
 }
-.pictures h3{
- 
+.pictures li{
+  width:20%;
+  margin-left:25px;
+  margin-right:25px;
+  float:left;
+}
+.pictures ul li img{
+ width:100%;
+ height:100%;
+}
+.pictures ul li h3{
+ font-size:20px;
+ color:#000;
+ letter-spacing:1em;
+ margin-bottom:10px;
+}
+.pictures ul li p{
+ font-size:16px;
+ color:#ccc;
+}
+  

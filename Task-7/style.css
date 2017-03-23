@@ -224,15 +224,15 @@ header{
 .fonts1 h1{
  font-size:50px;
 }
-.fonts1.en{
+.en{
  text-transform:uppercase;
  font-size:158px;
 }
-.fonts1.caption1{
+.caption1{
  padding-top:20px;
  font-size:21px;
 }
-.fonts1.date{
+.date{
  padding-top:10px;
  font-size:21px;
 }

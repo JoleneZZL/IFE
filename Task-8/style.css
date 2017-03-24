@@ -3,12 +3,8 @@
  padding:0;
 }
 .container{
-width:100%;
-max-width:1200px;
-box-sizing:border-box;
 margin:10px;
 }
-.row:before,
 .row:after{
 content:"";
 display:table;
@@ -19,15 +15,13 @@ float:left;
 min-height:1px;
 padding:12px;
 background-color:#ffdcdc;
+box-sizing:border-box;
 }
 .row p{
  background-color:ffc2c2;
- padding:5;
- margin:0;
  text-align:center;
  color:white;
  border:1px solid #ccc;
- box-sizing:border-box;
  height:50px;
  }
 @media min-width(768px){

@@ -20,9 +20,6 @@ min-height:1px;
 padding:12px;
 background-color:#ffdcdc;
 }
-.outline,.outline*{
-outline:1px solid #f5a1a1;
-}
 .row p{
  background-color:ffc2c2;
  padding:5;
@@ -31,6 +28,7 @@ outline:1px solid #f5a1a1;
  color:white;
  border:1px solid #ccc;
  box-sizing:border-box;
+ height:50px;
  }
 @media min-width(768px){
 .col-md-4{

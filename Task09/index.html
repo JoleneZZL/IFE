@@ -1,0 +1,428 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Complex page</title>
+<link href="./style.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text.css">
+</head>
+<body>
+<header>
+<i class="logo"></i>
+<span class="seperate-flex"></span>
+<div class="search-bar">
+ <label for="search-input">
+  <i class="material-icons">search</i>
+ </label>
+ <input type="text" id="search-input" name="search">
+</div>
+<i class="material-icons">person</i>
+<span>登录</span>
+</header>
+<div class="sidebar">
+ <div class="user">
+  <div class="icon">
+  <i class="user-photo"></i>
+  </div>
+  <span>Jolene</span>
+ </div>
+ <div class="user-info">
+  <div class="favorite">
+  <span>33333</span><br>
+  <span>收藏</span>
+  </div>
+  <div class="fans">
+  <span>555555</span><br>
+  <span>关注</span>
+  </div>
+ </div>
+ <ul class="data-list">
+ <li class="data-list data-is-selected">
+  <div class="list-title">
+  <i class="material-icons">business_center</i>
+  <span>个人报表</span>
+  </div>
+  <ul class="file-lists">
+  <li class="file-list>
+   <div class="list-title">
+    <i class="material-icons">chervon_right</i>
+    <i class="material-icons">folder</i>
+    <span>文件一</span>
+   </div></li>
+  <li class="file-list">
+   <div class="list-title file-is-selected">
+   <i class="material-icons">expand_more</i>
+   <i class="material-icons">folder_open</i>
+   <span>文件二</span>
+   </div>
+    <ul class="files">
+     <li class="file">
+      <div class="list-title is-selected">
+      <i class="material-icons">library_books</i>
+      <span>文档一</span>
+      </div>
+      <div class="list-title">
+      <i class="material-icons">library_books</i>
+      <span>文档二</span>
+      </div></li>
+  <li class="file-list">
+   <div class="list-title">
+    <i class="material-icons">chervon_right</i>
+    <i class="material-icons">folder</i>
+    <span>文件三</span>
+  </div> </li>
+  </ul>
+  </li>
+  <li class="data-list">
+   <div class="list-title">
+    <i class="material-icons">star</i>
+    <span>个人收藏</span>
+   </div>
+  </li>
+  <li class="data-list">
+    <div class="list-title">
+     <i class="material-icons">share</i>
+     <span>我的分享</span>
+     </div>
+  </li>
+  <li class="data-list">
+     <div class="list-title">
+      <i class="material-icons">party_mode</i>
+      <span>图库</span>
+      </div>
+  </li>
+  <li class="data-list">
+     <div class="list-title">
+     <i class="material-icons">event_note</i>
+     <span>成长记录</span>
+     </div>
+  </li>
+  <li class="data-list">
+    <div class="list-title‘》
+     <i class="material-icons">event_available</i>
+     <span>账户信息</span>
+    </div>
+    </li>
+ </ul>
+ </div>
+</div>
+<div class="file-path">
+	<span>Jolene</span>
+	<span>/</span>
+	<span>个人报表</span>
+	<span>/</span>
+	<span>文件一</span>
+	<span>/</span>
+	<span>文档一</span>
+</div>
+<main>
+<section class="search card">
+<form>
+	<div class="search-type">
+		<label for="serach-type">Search</label>
+		<select name="searrch" id="search-type">
+			<option value="First">First-item</option>
+			<option value="Second">Second-item</option>
+			<option value="Third">Third-item</option>
+		</select>
+	</div>
+	<div class="buyer-seller">
+		<div class="content-wrapper">
+			<label for="search-type">Buyer</label>
+			<select name="search" id="search-type">
+				<option value="hello">hello</option>
+				<option value="hi">hi</option>
+				<option vlaue="hey">hey</option>
+			</select><br>
+			<label for="search-type">Seller</label>
+			<select name="search" id="search-type">
+				<option value="hello">hello</option>
+				<option value="hi">hi</option>
+				<option value="hey">hey</option>
+			</select>
+		</div>
+		<i class="swap-icon"></i>
+	</div>
+	<div class="details">
+		<div>
+			<label for="date">Date</label>
+			<input type="date" id="date"name="date">
+			<label for="day">总耗时</label>
+			<input type="text" class="small-input" id="day" list="days">
+			<datalist id="days">
+				<option value="8days"></option>
+				<option value="18days"></option>
+			</datalist>
+		</div>
+		<div>
+			<label for="num">人数</label>
+			<input type="text" id="num" name="num" class="small-input" list="p1">
+			<datalist id="p1">
+				<option value="10persons"></option>
+				<option value="100perosons"></option>
+			</datalist>
+			<label for="deal">成交项</label>
+			<input type="text" id="deal" name="deals" list="deals">
+			<datalist id="deals">
+				<option value="10deals"></option>
+				<option value="100deals"></option>
+			</datalist>
+		</div>
+		<div class="serach-button">
+			<input type="button" value="Search" name="search"> 
+		</div>
+
+
+	</div>
+</form>
+</section>
+<section class="time-price">
+	<div class="small-btn card">
+		<i class="material-icons">chevron_left</i>
+	</div>
+	<div class="adjustable card is-selected">
+		<span class="time">10:00</span><br>
+		<span class="money">$</span>
+		<span class="price">1200</span>
+
+	</div>
+	<div class="adjustable card">
+		<span class="time">10:00</span><br>
+		<span class="money">$</span>
+		<span class="price">1200</span>
+
+	</div>
+	<div class="adjustable card">
+		<span class="time">10:00</span><br>
+		<span class="money">$</span>
+		<span class="price">1200</span>
+
+	</div>
+        <div class="adjustable card">
+		<span class="time">10:00</span><br>
+		<span class="money">$</span>
+		<span class="price">1200</span>
+
+	</div>
+	<div class="adjustable card">
+		<span class="time">10:00</span><br>
+		<span class="money">$</span>
+		<span class="price">1200</span>
+
+	</div>
+	<div class="adjustable card">
+		<span class="time">10:00</span><br>
+		<span class="money">$</span>
+		<span class="price">1200</span>
+
+	</div>
+	<div class="adjustable card">
+		<span class="time">10:00</span><br>
+		<span class="money">$</span>
+		<span class="price">1200</span>
+
+	</div>
+	<div class="adjustable card">
+		<span class="time">10:00</span><br>
+		<span class="money">$</span>
+		<span class="price">1200</span>
+
+	</div>
+</section>
+<section class="data">
+	<section calss="statistics">
+		<span class="title">April Report</span>
+		<div class="deals">
+			<div class="card green">
+				<div class="number">
+					<span>333333</span>
+					<span>成交量</span>
+				</div>
+				<span class="separator-flex"></span>
+				<div class="box">
+				</div>
+			</div>
+                	<div class="card blue">
+				<div class="number">
+					<span>333333</span>
+					<span>成交量</span>
+				</div>
+				<span class="separator-flex"></span>
+				<div class="box">
+				</div>
+			</div>
+                	<div class="card yellow">
+				<div class="number">
+					<span>333333</span>
+					<span>成交量</span>
+				</div>
+				<span class="separator-flex"></span>
+				<div class="box">
+				</div>
+			</div>
+                	<div class="card red">
+				<div class="number">
+					<span>333333</span>
+					<span>成交量</span>
+				</div>
+				<span class="separator-flex"></span>
+				<div class="box">
+				</div>
+			</div>	
+
+        </section>
+</section>
+<section class="details">
+	<section class="projects">
+		<div class="card">
+			<span class="title">第一组项目</span>
+		</div>
+		<div class="main-content">
+			<ul class="project-names">
+				<li class="project-name is-selected">Item-1</li>
+                        	<li class="project-name">Item-2</li>
+                                <li class="project-name">Item-3</li>
+                                <li class="project-name">Item-4</li>
+				<li class="project-name">Item-2</li>
+			<div class="project-content">
+				<table>
+					<tbody>
+						<tr>
+							<td class="is-selected">超熟练的呦！</td>
+							<td>超熟练的呦！</td>
+							<td>超熟练的呦！</td>
+							<td>超熟练的呦！</td>	
+							<td>超熟练的呦！</td>
+						</tr>	
+						<tr>
+							<td>超熟练的呦！</td>
+							<td>超熟练的呦！</td>
+							<td>超熟练的呦！</td>
+							<td>超熟练的呦！</td>	
+							<td>超熟练的呦！</td>
+						</tr>	
+						<tr>
+							<td>超熟练的呦！</td>
+							<td>超熟练的呦！</td>
+							<td>超熟练的呦！</td>
+							<td>超熟练的呦！</td>	
+							<td>超熟练的呦！</td>
+						</tr>
+						<tr>
+							<td>超熟练的呦！</td>
+							<td>超熟练的呦！</td>
+							<td>超熟练的呦！</td>
+							<td>超熟练的呦！</td>	
+							<td>超熟练的呦！</td>
+						</tr>
+						<tr>
+							<td>超熟练的呦！</td>
+							<td>超熟练的呦！</td>
+							<td>超熟练的呦！</td>
+							<td>超熟练的呦！</td>	
+							<td>超熟练的呦！</td>
+						</tr>
+
+					</tbody>
+
+				</table>
+
+			</div>
+
+		</div>
+		<div class="project-detail">
+			<div class="card">
+				<div class="title">
+					<span>第一组项目</span>
+				</div>
+				<div class="main-content">
+					<form>
+						<div class="form-title">
+							<label for="form-title">此处是标题呦</label><br>
+							<input type="text" id="form-title" placeholder="why so lazy?">
+						</div>
+						<div class="price-and">
+							<label for="price">价格</label><br>
+							<input type="text" id="price" placehodler="8888">
+						</div>
+						<div class="fuzeren">
+							<label for="fuzeren">负责人</label><br>
+							<input type="text" id="fuzeren" placeholder="Jolene">
+						</div>
+						<div class="details">
+							<label for="details">这个肥到底还要不要减</label>
+							<br>
+							<textarea id="details" placeholder="当然要减啦，你难道说想要一辈子都胖下去吗？"</textarea>
+						</div>
+						<div class="submit-part">
+							<input type="checkbox" id="admit">
+							 <label for="admit">遵守保密协议</label>
+							 <span class="separator-flex"></span>
+							 <input type="button" value="搜索">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	
+	</section>
+	<section class="others">
+		<section class="calendar">
+			<div class="card">
+				<div class="title">
+					<span>日历</span>
+				<div>
+				<div class="main-content">
+					<div class="select-part">
+						<select name="year" id="year">
+							<option value="2017年">2017年</option>
+						</select>
+						<select name="month" id="month">
+							<option value="April">April</option>
+						</select>
+						<select name="date" id="date">
+							<option value="date">标注日期</option>
+						</select>
+						<input type="button" value="返回今天">
+					</div>
+					<table>
+						<tbody>
+							<tr class="days">
+								<td>一</td>
+								<td>二</td>
+								<td>三</td>
+								<td>四</td>
+								<td>五</td>
+								<td>六</td>
+								<td>日</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td>
+									<span>1</span>
+									<span class="special">愚人节</span>
+								</td>
+								<td>
+									<span>2</span>
+									<span>二十五</span>
+								</td>
+								<td>
+									<span>3</span>
+									<span>二十六</span>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				</div>
+
+	        </section>
+	</section>
+
+</section>
+</main>
+</body>
+</html>
